@@ -492,25 +492,17 @@ h3 {
     filter: drop-shadow(4px 4px 4px #222); */
 }
 
-/* .js {
-    -webkit-filter: drop-shadow(4px 4px 4px #F7DF1E);
-    filter: drop-shadow(4px 4px 4px #a59417);
+.react {
+    width:90px;
 }
 
-.css {
-    -webkit-filter: drop-shadow(4px 4px 4px #264DE4);
-    filter: drop-shadow(4px 4px 4px #182f8d);
+.mongo {
+    width: 120px;
 }
 
-.html5 {
-    -webkit-filter: drop-shadow(4px 4px 4px #E54C21);
-    filter: drop-shadow(4px 4px 4px #9b3316);
+.graphql {
+    width: 120px;
 }
-
-.node {
-    -webkit-filter: drop-shadow(4px 4px 4px #619956);
-    filter: drop-shadow(4px 4px 4px #3f6338);
-} */
 
 .projects {
     background-color: #f9f2fa;

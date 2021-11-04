@@ -127,6 +127,54 @@ gsap.to(".handlebars", {
 
 })
 
+gsap.to(".react", {
+    scrollTrigger: {
+        trigger: ".keyboardImageContainer",
+        end: "center",
+        // start: "top center",
+        // toggleActions: "restart ",
+        // markers: true,
+        scrub: 0.5,
+    },
+    y: -142,
+    rotation:18,
+    x:120,
+    duration: 0.1
+
+})
+
+gsap.to(".graphql", {
+    scrollTrigger: {
+        trigger: ".keyboardImageContainer",
+        end: "center",
+        // start: "top center",
+        // toggleActions: "restart ",
+        // markers: true,
+        scrub: 0.5,
+    },
+    y: -127,
+    rotation:-22,
+    x:-10,
+    duration: 0.1
+
+})
+
+gsap.to(".mongo", {
+    scrollTrigger: {
+        trigger: ".keyboardImageContainer",
+        end: "center",
+        // start: "top center",
+        // toggleActions: "restart ",
+        // markers: true,
+        scrub: 0.5,
+    },
+    y: -220,
+    rotation:-28,
+    x:-50,
+    duration: 0.1
+
+})
+
 gsap.to(".express", {
     scrollTrigger: {
         trigger: ".keyboardImageContainer",
