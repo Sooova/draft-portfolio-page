@@ -203,3 +203,16 @@ gsap.to(".contactStart", {
 
 // })
 
+const goToGithub = function(event) {
+    const target = event.target.id;
+    if (target == 'ydfm') {
+        window.open('https://github.com/Sooova/your-daily-5-minutes', '_blank').focus();
+    }
+    else if (target =='ww') {
+        window.open('https://github.com/Sooova/super-duper-bassoon', '_blank').focus();
+    }
+    else if (target == 'canban') {
+        window.open('https://github.com/Sooova/Canban.io', '_blank').focus();
+    }
+}
+

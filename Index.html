@@ -10,40 +10,46 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div class = "navBar">
+        <div class="navBar">
 
         </div>
 
     </header>
 
     <div class="startingContainer">
-        <div class = "scrollIndicator">
-            <img src = "images/downarrow.png"/>
-        </div>
-        <div class="suvaDiv">
-            <div class = "suvaContainer">
-                <img class="fadeIn suvaImage" src="images/ProfilePictureMaker.png">
-                <!-- <img class = "suvaOnly" src = "images/taken out.png"/> -->
+        <div class="startingContainerChild">
+            <div class="suvaDiv">
+                <div class="suvaContainer">
+                    <img class="fadeIn suvaImage" src="images/ProfilePictureMaker.png">
+                    <!-- <img class = "suvaOnly" src = "images/taken out.png"/> -->
+                </div>
+                <div class="subtitleContainer">
+                    <h2>Suva</h2>
+                    <p class="subTitle">Web Developer &</p>
+                    <P class="subTitle canbanSubtitle">Creator of Canban.io</P>
+                </div>
             </div>
-            <div class="subtitleContainer">
-                <h2>Suva</h2>
-                <p class="subTitle">Web Developer</p>
+
+            <div class="quoteContainer">
+                <h3 data-aos="fade-in" data-aos-duration="3000"><span class="quoteMarks">"</span>It took 22 years but
+                    I've<br> <span class="spacing">spacet</span> found my function();<span class="quoteMarks">"</span>
+                    </h2>
             </div>
         </div>
-
-        <div class="quoteContainer">
-            <h3 data-aos="fade-in" data-aos-duration="3000"><span class="quoteMarks">❝</span>I've got a lot to
-                learn,<br> <span class="spacing">spacet</span>but I'll do anything to get there.<span
-                    class="quoteMarks">❞</span></h2>
+        <div class="scrollIndicator">
+            <img src="images/downarrow.png" />
         </div>
-
-
     </div>
 
     <!-- <div class="nav">
@@ -59,17 +65,19 @@
             <h4 class="aboutHeading">About</h2>
         </div>
 
-        <div class="aboutContent">
+        <div class="aboutContent mobileWidth">
 
-            <div class="babyImageContainer polaroid">
-                <!-- <div class = polaroid>
+            <div class="polaroidWidth">
+                <div class="babyImageContainer polaroid">
+                    <!-- <div class = polaroid>
                     <a><img class = "babySuva2" src = "baby suva pool.jpg" /></a>
                 </div> -->
-                <a><img class="babySuva" src="images/baby suva (2).jpg" /></a>
-                <p class="subTitle wangaratta">Wangaratta, Victoria</p>
+                    <a><img class="babySuva" src="images/baby suva (2).jpg" /></a>
+                    <p class="subTitle wangaratta">Wangaratta, Victoria</p>
+                </div>
             </div>
-            <div>
-                <p data-aos="fade-left" data-aos-duration="1000" class="aboutText">A born in '99 aussie brought up in
+            <div class="aboutText">
+                <p data-aos="fade-left" data-aos-duration="1000">A born in '99 aussie brought up in
                     rural victoria, now based in Melbourne, Australia. Currently studying at the Monash
                     University web development bootcamp with aims to
                     commit to memory how to absolutely center a div on a page. <span class="tip">(place-items: center,
@@ -78,37 +86,38 @@
             </div>
         </div>
 
-        <div class="aboutContentSecond">
+        <div class="aboutContentSecond mobileWidth">
 
-            <div>
-                <p data-aos="fade-right" data-aos-duration="1000" class="aboutText"> Outside the classroom, I have a strong interest in building computers, and building fully custom mechanical keyboards. Other hobbies of mine include, light gaming and sleeping in.
+            <div class="aboutText">
+                <p data-aos="fade-right" data-aos-duration="1000"> Outside the classroom, I have a
+                    strong interest in building computers, and building fully custom mechanical keyboards. Other hobbies
+                    of mine include, light gaming and sleeping in.
                 </p>
             </div>
-            <div class = "keyboardImageContainer polaroid">
-                <a><img class="keyboardPicture" src="images/keyboard picture.jpg" /></a>
-                <p class="subTitle keyboard">If she had a name<br> It'd be pretty</p>
+            <div class="polaroidWidth">
+                <div class="keyboardImageContainer polaroid">
+                    <a><img class="keyboardPicture" src="images/keyboard picture.jpg" /></a>
+                    <p class="subTitle keyboard">If she had a name<br> It'd be pretty</p>
 
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="techContainer">
-        <div class="boxContainer">
-            <img class="box" src="images/Groupbox(3).png" />
-            <img class="techIcons express" src="images/express svg.png" />
-            <img class="techIcons css" src="images/css 3.png" />
-            <img class="techIcons handlebars" src="images/handlebars.png" />
-            <img class="techIcons html5" src="images/html5.png" />
-            <img class="techIcons js" src="images/js.webp" />
-            <img class="techIcons node" src="images/node js.png" />
-
+        <div class="techContainer mobileWidth">
+            <div class="boxContainer">
+                <img class="box" src="images/Groupbox(3).png" />
+                <img class="techIcons express" src="images/express svg.png" />
+                <img class="techIcons css" src="images/css 3.png" />
+                <img class="techIcons handlebars" src="images/handlebars.png" />
+                <img class="techIcons html5" src="images/html5.png" />
+                <img class="techIcons js" src="images/js.webp" />
+                <img class="techIcons node" src="images/node js.png" />
+            </div>
+            <p data-aos="fade-right" data-aos-duration="1000" class="aboutText">Whilst my web development career is
+                still in
+                it's infancy, I've aquired a strong foundation
+                behind the core of web. No doubt there will be more modules to be had, in the not so distant future.
+            </p>
         </div>
-        <p data-aos="fade-right" data-aos-duration="1000" class="aboutText">Whilst my web development career is still in
-            it's infancy, I've aquired a strong foundation
-            behind the core of web. No doubt there will be more modules to be had, in the not so distant future.
-        </p>
-    </div>
-
     </div>
 
 
@@ -123,46 +132,45 @@
 
         </div>
 
-        <div class="ydfmContainer">
-            <div class = "exampleNumbersYDFM">
-                <img class="demoImages" src="images/ydfm static higher.png" />
+        <div class="ydfmContainer" onClick="goToGithub(event)">
+            <div class="exampleNumbersYDFM">
+                <img id="ydfm" class="demoImages" src="images/ydfm static higher.png" />
             </div>
             <div class="ydfmTextContent">
-                <!-- <ul>
-                    <li>Concept app</li>
-                    <li>HTML, CSS, JS</li>
-                    </li>
-                </ul> -->
             </div>
         </div>
 
-        <div class="wizardWipeoutContainer">
-            <div class = "exampleNumbersWW">
-                <img class="demoImages" src="images/wizard wipeout.png" />
+        <div class="wizardWipeoutContainer" onClick="goToGithub(event)">
+            <div class="exampleNumbersWW">
+                <img id="ww" class="demoImages" src="images/wizard wipeout.png" />
             </div>
-            <div class="wizardWipeoutTextContent">
-                <ul>
-                    <!-- <li>Full-stack</li>
-                    <li>Live deployment</li>
-                    <li>HTML, CSS, JS</li>
-                    <li>mySQL, Node</li>
-                    <li>and Handlebars</li> -->
-                </ul>
+        </div>
+
+
+        <div class="canbanioContainer" onClick="goToGithub(event)">
+            <div class="exampleNumbersCB">
+                <img id="canban" class="demoImages" src="images/canbanio.png" />
             </div>
         </div>
     </div>
 
-    <div class = "contactStart">
+    <div class="contactStart">
         <p>dummytext</p>
     </div>
-    
-    <div class = "contact">
-        <h5 data-aos="fade-in" data-aos-duration="3000" class = "contactHeading">Keep in <br> contact.</b3></b4></h5>
-        
+
+    <div class="contact">
+        <h5 data-aos="fade-in" data-aos-duration="3000" class="contactHeading">Keep in <br> contact.</b3>
+            </b4>
+        </h5>
+
         <ul>
-            <li><a href = "https://github.com/Sooova"><img class = "githubIcon" src = "images/github.png"/>Github </a></li>
-            <li><a href="mailto:Pokharel.suva@gmail.com"><img class = "emailIcon" src = "images/arroba.png" />Pokharel.suva@gmail.com</a></li>
-            <li><a href = "https://au.linkedin.com/in/suva-pokharel-1b480a217"><img class = "linkedIcon" src = "images/linkedin_black_logo_icon_147114.png" />LinkedIn</a></li>
+            <li><a href="https://github.com/Sooova"><img class="githubIcon" src="images/github.png" />Github </a></li>
+            <li><a href="mailto:Pokharel.suva@gmail.com"><img class="emailIcon"
+                        src="images/arroba.png" />Pokharel.suva@gmail.com</a></li>
+            <li><a href="https://au.linkedin.com/in/suva-pokharel-1b480a217"><img class="linkedIcon"
+                        src="images/linkedin_black_logo_icon_147114.png" />LinkedIn</a></li>
+            <li><a href="https://docs.google.com/document/d/1oaU9bBIgjS7WHSJ-qoIV3CUj6qYTqfPmQ5UcQKnvzII/edit?usp=sharing"><img class="resumeIcon"
+                        src="images/resume.png" />Resume</a></li>
         </ul>
 
 
